@@ -2,16 +2,16 @@
 class Bump < Formula
   desc "bump - SemVer bumping made easy!"
   homepage "https://github.com/broothie/bump"
-  version "0.0.4"
+  version "0.0.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/broothie/bump/releases/download/0.0.4/bump_0.0.4_darwin_amd64.tar.gz"
-    sha256 "0c960083fb6a68054cb61d26cc94810d8a72a6ebe3620d2aeb22cdc9b88a674d"
+    url "https://github.com/broothie/bump/releases/download/0.0.5/bump_0.0.5_darwin_amd64.tar.gz"
+    sha256 "7dbd9922a623f85f3b2fd30d0e48f70540e657c0539925b7718f6be110cca66f"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/broothie/bump/releases/download/0.0.4/bump_0.0.4_linux_amd64.tar.gz"
-      sha256 "622b65d1494fb76820c41562c5ae67baa3a420e35e4df46bc336471b4cc5e4eb"
+      url "https://github.com/broothie/bump/releases/download/0.0.5/bump_0.0.5_linux_amd64.tar.gz"
+      sha256 "ad6cf148920efaf1fe2e88a87a814405ab56090375e9ce02befd57a72d5621e4"
     end
   end
 
